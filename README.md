@@ -63,8 +63,8 @@ CNN(
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/aniishhaa/HDR.git
-cd HDR
+git clone https://github.com/aniishhaa/mnist-webapp.git
+cd mnist-webapp
 ```
 
 ### 2. Install Dependencies
