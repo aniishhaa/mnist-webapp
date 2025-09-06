@@ -2,16 +2,16 @@
 
 A modern, full-stack web application for recognizing handwritten digits using a custom PyTorch CNN model and Flask API. This project demonstrates the complete pipeline from model training in Google Colab to deployment in a user-friendly web interface.
 
-## 🚀 Features
+##  Features
 
-- **🎨 Drawing Canvas**: Draw digits directly on a digital canvas with smooth, responsive drawing
-- **📷 Camera Capture**: Take photos of handwritten digits using your device's camera
-- **⚡ Real-time Prediction**: Get instant predictions with confidence scores
-- **📱 Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- **🔧 Debug Mode**: Detailed logging for development and troubleshooting
-- **🎯 High Accuracy**: Custom-trained CNN model with 99%+ accuracy on MNIST data
+- ** Drawing Canvas**: Draw digits directly on a digital canvas with smooth, responsive drawing
+- ** Camera Capture**: Take photos of handwritten digits using your device's camera
+- ** Real-time Prediction**: Get instant predictions with confidence scores
+- ** Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- ** Debug Mode**: Detailed logging for development and troubleshooting
+- ** High Accuracy**: Custom-trained CNN model with 99%+ accuracy on MNIST data
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Frontend
 - **HTML5**: Semantic markup and canvas API
@@ -29,7 +29,7 @@ A modern, full-stack web application for recognizing handwritten digits using a 
 - **MNIST Dataset**: 60,000 training images, 10,000 test images
 - **Mini-batch Gradient Descent**: Efficient training with Adam optimizer
 
-## 📊 Model Performance
+##  Model Performance
 
 - **Training Accuracy**: 99.32%
 - **Test Accuracy**: 99.13%
@@ -37,7 +37,7 @@ A modern, full-stack web application for recognizing handwritten digits using a 
 - **Inference Time**: <50ms per prediction
 - **Confidence Scores**: 60-100% for well-drawn digits
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 ```python
 CNN(
@@ -51,14 +51,14 @@ CNN(
 )
 ```
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - **Python**: 3.8 or higher
 - **pip**: Python package installer
 - **Web Browser**: Chrome, Firefox, Safari, or Edge
 - **Camera**: For camera capture feature (optional)
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -89,7 +89,7 @@ The server will start on `http://localhost:5000`
 
 Open `index.html` in your web browser to start using the application.
 
-## 🎯 How to Use
+##  How to Use
 
 ### Drawing Canvas
 1. Navigate to the "Drawing Canvas" tab
@@ -106,7 +106,7 @@ Open `index.html` in your web browser to start using the application.
 5. View the prediction result
 6. Use "Upload Image" to test with existing photos
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 HDR/
@@ -121,7 +121,7 @@ HDR/
 └── README.md                   # This file
 ```
 
-## 🔬 Model Training
+##  Model Training
 
 The model was trained using Google Colab with the following approach:
 
@@ -134,7 +134,7 @@ The model was trained using Google Colab with the following approach:
 6. **Model Saving**: State dict saved as `mnist_model.pth`
 
 ### Colab Notebook
-📓 **Training Notebook**: [View on Google Colab](https://colab.research.google.com/drive/19XcoZCNaiVAn0nJ--0izpGC0s1AewB7W?usp=sharing)
+ **Training Notebook**: [View on Google Colab](https://colab.research.google.com/drive/19XcoZCNaiVAn0nJ--0izpGC0s1AewB7W?usp=sharing)
 
 The notebook includes:
 - Complete training pipeline
@@ -143,7 +143,7 @@ The notebook includes:
 - Performance metrics
 - Model conversion utilities
 
-## 🔧 Development
+##  Development
 
 ### Testing the Model
 
@@ -171,15 +171,15 @@ The Flask server runs in debug mode by default, showing:
 - `POST /predict_digit` - Predict digit from image data
 - `POST /predict_equation` - (Future: equation recognition)
 
-## 📱 Browser Compatibility
+##  Browser Compatibility
 
-- ✅ **Chrome** (recommended)
-- ✅ **Firefox**
-- ✅ **Safari**
-- ✅ **Edge**
-- ✅ **Mobile browsers** (iOS Safari, Chrome Mobile)
+-  **Chrome** (recommended)
+-  **Firefox**
+-  **Safari**
+-  **Edge**
+-  **Mobile browsers** (iOS Safari, Chrome Mobile)
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 ### Phase 1: Hand Movement Recognition
 - **Real-time hand tracking** using computer vision
@@ -205,7 +205,7 @@ The Flask server runs in debug mode by default, showing:
 - **Batch processing** for multiple images
 - **Cloud deployment** with scalable infrastructure
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Here's how you can help:
 
@@ -216,43 +216,12 @@ We welcome contributions! Here's how you can help:
 5. **Open** a Pull Request
 
 ### Areas for Contribution
-- 🎨 **UI/UX improvements**
-- 🧠 **Model architecture enhancements**
-- 📱 **Mobile optimization**
-- 🔧 **Performance optimizations**
-- 📚 **Documentation updates**
-- 🐛 **Bug fixes and testing**
+-  **UI/UX improvements**
+-  **Model architecture enhancements**
+-  **Mobile optimization**
+-  **Performance optimizations**
+-  **Documentation updates**
+-  **Bug fixes and testing**
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👨‍💻 Author
-
-**aniishhaa** - [GitHub Profile](https://github.com/aniishhaa)
-
-## 🙏 Acknowledgments
-
-- **MNIST Dataset**: Yann LeCun and the MNIST team for the foundational dataset
-- **PyTorch Team**: For the excellent deep learning framework
-- **Flask Team**: For the lightweight and flexible web framework
-- **Google Colab**: For providing free GPU access for model training
-- **Open Source Community**: For the tools and libraries that made this possible
-
-## 📈 Project Statistics
-
-- **Lines of Code**: 500+ (Python + JavaScript + HTML/CSS)
-- **Model Parameters**: ~50,000
-- **Training Time**: ~5 minutes on Colab GPU
-- **Inference Speed**: <50ms per prediction
-- **Accuracy**: 99%+ on MNIST test set
-
----
-
-⭐ **Star this repository if you found it helpful!**
-
-🔗 **Connect with me**: [GitHub](https://github.com/aniishhaa) | [LinkedIn](https://linkedin.com/in/aniishhaa)
-
----
 
 *This project demonstrates the complete pipeline from data preprocessing and model training to web deployment, showcasing modern machine learning and web development practices.*
